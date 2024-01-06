@@ -5,6 +5,12 @@ body {margin: 0;}
     color: floralwhite;
 }
 
+#personalPhoto {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
 #bookstore {
     background-color: darkslategray;
     text-align: center;
