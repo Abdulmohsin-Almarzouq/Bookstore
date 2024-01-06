@@ -1,0 +1,26 @@
+body {margin: 0;}
+
+#aboutme {
+    background-color: #222;
+    color: floralwhite;
+}
+
+#bookstore {
+    background-color: darkslategray;
+    text-align: center;
+    color: floralwhite;
+}
+
+table, td{
+    border: 1px solid floralwhite;
+    border-collapse: collapse;
+    padding: 3px;
+}
+
+th {
+    border: 1px solid floralwhite;
+    border-collapse: collapse;
+    padding: 10px
+}
+
+table.center {margin-left:auto; margin-right: auto;}
