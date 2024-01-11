@@ -1,9 +1,21 @@
+@font-face {
+    font-family: 'cursive';
+    src: url("fonts/alex-brush/AlexBrush-Regular.ttf")
+}
+
 body {margin: 0;}
 
-#aboutme {
+.aboutme {
     background-color: #222;
     color: floralwhite;
 }
+
+.aboutme h1{
+    font-family: 'cursive';
+    font-size: 50px;
+}
+
+
 
 #personalPhoto {
     display: block;
@@ -11,10 +23,11 @@ body {margin: 0;}
     margin-right: auto;
 }
 
-#bookstore {
+.bookstore {
     background-color: darkslategray;
     text-align: center;
     color: floralwhite;
+    font-family: Arial;
 }
 
 table, td{
