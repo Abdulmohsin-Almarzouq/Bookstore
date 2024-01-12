@@ -4,22 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Store</title>
+    <title>My Projects</title>
 
     <link rel="stylesheet" href="bookstore.css">
 
 </head>
 <body>
     <div class="aboutme">
-        <h1 style=" margin:0; text-align: center; ">About me</h1>
-        <img id='personalPhoto' src="images/personalPhoto.jpg" height='360' alt="personal photo">
+        <h1 class="aboutmeTitle">About me</h1>
+        <img class='personalPhoto' src="images/personalPhoto.jpg" height='360' alt="personal photo">
+        
+        <ul class='interests'>
+            <li>Aspiring web developer</li>
+            <li>Computer science student at IAU</li>
+            <li>Currently working as a laundry manager</li>
+            <li>Programming hobbyist</li>
+            <li>Technologies I use:
+                <ul>
+                    <li>Javascript HTML CSS Python C++</li>
+                </ul>
+            </li>
+
+        </ul>
     </div>
     
     <div class="bookstore">   
-    <h1 style=" margin:0 "><strong>ABDULMOHSIN'S BOOK STORE</strong></h1>
-    <h2>There are a couple of search methods</h2>
-    <div id = "bookTable"></div>
+    <h1 style=" padding-top:2.5%; padding-bottom:2.5%; margin:0"><strong>ABDULMOHSIN'S BOOK STORE</strong></h1>
+    <h2 style="margin-top:0">There are a couple of search methods</h2>
 
+    <div id = "bookTable"></div>
 
     <h1>Search By Book Id</h1>
     <input id = "bookSearchId"><br><br>

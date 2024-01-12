@@ -6,23 +6,37 @@
 body {margin: 0;}
 
 .aboutme {
+    background-image: url(backgrounds/roadBgEdited.jpg);
+    background-position: right;
+    background-size: cover;
     background-color: #222;
     color: floralwhite;
+    padding-bottom: 5%;
+    padding-left:5%;
 }
 
+.aboutmeTitle {
+    margin:0;
+    text-align: center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%
+}
 .aboutme h1{
     font-family: 'cursive';
     font-size: 50px;
 }
 
-
-
-#personalPhoto {
+.personalPhoto {
     display: block;
-    margin-left: auto; 
-    margin-right: auto;
+    
 }
 
+.interests {
+    list-style: circle;
+}
+/*
+--------------------------------------
+*/
 .bookstore {
     background-color: darkslategray;
     text-align: center;
