@@ -32,7 +32,27 @@ body {margin: 0;}
 }
 
 .interests {
-    list-style: circle;
+    padding-top: 8px;
+    margin:0;
+    font-family: Arial;
+    font-size: 20px;
+    
+}
+
+.aboutme h2 {
+    margin:0;
+}
+.technologies {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 8px;
+    gap: 16px;
+    font-size:initial
+}
+
+.techLogos {
+    width: 16px;
+    padding-right: 8px;
 }
 /*
 --------------------------------------
