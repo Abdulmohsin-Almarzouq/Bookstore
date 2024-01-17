@@ -3,9 +3,10 @@
     src: url("fonts/alex-brush/AlexBrush-Regular.ttf")
 }
 
-body {margin: 0;}
+body {margin: 0; background-color: #000000;}
 
 .aboutme {
+    /* height:100vh; */
     background-image: url(backgrounds/roadBgEdited.jpg);
     background-position: right;
     background-size: cover;
@@ -38,20 +39,27 @@ body {margin: 0;}
     
 }
 
-.aboutme h2 {
-    margin:0;
-}
 .technologies {
     display: flex;
     justify-content: flex-start;
     padding-top: 8px;
     gap: 16px;
-    font-size:initial
+    font-size:initial;
 }
 
 .techLogos {
     width: 16px;
     padding-right: 8px;
+}
+
+.projectTitle {
+    font-family: Arial;
+    text-align: center;
+}
+
+.bookStoreProject {
+    color: white;
+    text-align: center;
 }
 /*
 --------------------------------------

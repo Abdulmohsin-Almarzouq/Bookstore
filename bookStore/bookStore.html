@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="myProjects.css">
+</head>
+<body>
+    
+
+<div class="bookstore">   
+    <h1 style=" padding-top:2.5%; padding-bottom:2.5%; margin:0"><strong>ABDULMOHSIN'S BOOK STORE</strong></h1>
+    <h2 style="margin-top:0">There are a couple of search methods</h2>
+
+    <div id = "bookTable"></div>
+
+    <h1>Search By Book Id</h1>
+    <input id = "bookSearchId"><br><br>
+    <button onclick="bookSearchId()">Search</button>
+
+    <h4 id="idIndexDisplay"></h4>
+    <h4 id="idResult"></h4><hr>
+
+
+    <h1>Search By Desired method</h1>
+    <label for="bookSearchFinalMethod">Method: </label>
+    <input id="bookSearchFinalMethod"><br><br>
+    <label for="bookSearchFinalInput">Input:</label>
+    <input id="bookSearchFinalInput"><br><br>
+    <button onclick="bookSearchFinal()">Search</button>
+    
+    <h4 id="methodIndexDisplay"></h4>
+    <h4 id="methodResult"></h4>
+    <h4 id="testDisplay"></h4>
+    <h4 id="testDisplay2"></h4>
+    <hr>
+
+
+    <h1>Book Sale</h1>
+    <label for="bookTitle">Book Title: </label>
+    <input id="bookTitle"><br><br>
+    <label for="quantity">Quantity: </label>
+    <input id="quantity"><br><br>
+    <label for="balance">Balance: </label>
+    <input id="balance"><br><br>
+    <button onclick="bookSale()">Buy</button>
+
+    <h4 id="reply"></h4>
+    <h4 id="newQuantity"></h4><hr>
+
+
+    <h1>Book Search</h1>
+    <input id="bookSearch"><br><br>
+    <button onclick="bookSearchRefined()">Search</button>
+
+    <h4 id="bookResultIndex"></h4>
+    <h4 id="bookResult"></h4>
+
+
+    <div id = "secondBookTable"></div>
+</div>
+    <script src = "bookStoreJS.js"></script>
+</body>
+</html>
