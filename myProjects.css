@@ -91,7 +91,7 @@ table.center {margin-left:auto; margin-right: auto;}
 --------------------------------------
 THE SNAKE GAME
 */
-body {
+.snakeBody {
     background-color: rgb(231, 239, 146);
 }
 
