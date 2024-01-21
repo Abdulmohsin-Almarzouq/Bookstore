@@ -3,14 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snake</title>
-    <link rel='stylesheet' href='snake.css'>
+    <title>Snake game</title>
+    <link rel='stylesheet' href='../myProjects.css'>
 </head>
 
 <body>
-    <h1 id='firstHeader'></h1>
-    <button onclick='gameStart()'>START</button>
-    <div id='game'></div>
+    <div class="snakePage">
+        <h1 class='headers'>Classic Snake</h1>
+        <h2 class='headers'>Are you up for the challenge?</h2>
+        
+        <div id='game' class='game'>
+                
+        </div>
+        
+    
+        <div class="play">
+            <button onclick='play()'>PLAY</button>
+        </div>
+       
+        <div id='gameDialogue' class="gameDialogue"></div>
+    </div>
+    <div class="test"></div>
     <script src='snake.js'></script>
 </body>
 </html>

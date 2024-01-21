@@ -2,11 +2,13 @@
     font-family: 'cursive';
     src: url("fonts/alex-brush/AlexBrush-Regular.ttf")
 }
-
+/*
+--------------------------------------
+THE MAINPAGE
+*/
 body {margin: 0; background-color: #000000;}
 
 .aboutme {
-    /* height:100vh; */
     background-image: url(backgrounds/roadBgEdited.jpg);
     background-position: right;
     background-size: cover;
@@ -63,6 +65,7 @@ body {margin: 0; background-color: #000000;}
 }
 /*
 --------------------------------------
+THE BOOKSTORE
 */
 .bookstore {
     background-color: darkslategray;
@@ -84,3 +87,59 @@ th {
 }
 
 table.center {margin-left:auto; margin-right: auto;}
+/*
+--------------------------------------
+THE SNAKE GAME
+*/
+body {
+    background-color: rgb(231, 239, 146);
+}
+
+.headers {
+    font-family: Arial;
+    text-align:center;
+    color:rgb(101, 175, 221)
+}
+
+.game {
+    background-color: #3a342f;
+    aspect-ratio: 5/3;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    border-color: #3a342f;
+    border-style: solid;
+    border-width: 5%;
+    border-radius: 1%
+}
+
+.boxes {
+    background-color: #4e463f;
+    aspect-ratio: 1/1;
+    /* 35 (squares) + [70 (margins)(2 for each square) * 0.05 (5% the size of the square) = 38.5] */
+    width: calc(100%/38.5);
+    margin: calc(100%/770);
+    border-radius: 10%;
+}
+
+.play {
+    text-align: center;
+    margin-top: 8px;
+
+}
+
+.gameDialogue {
+    text-align: center;
+    font-family: Arial;
+    color:#4e463f;
+    padding-top: 1%;
+}
+
+
+/* .test{
+    background-color:azure;
+    aspect-ratio: 2/1;
+    width: 50%;
+} */
